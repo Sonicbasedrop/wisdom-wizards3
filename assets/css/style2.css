@@ -26,7 +26,7 @@ div.bg1 {
     height: 100%;
     width: 100%;
     /* The image used */
-    background-image: url("../images/bg-wizards-2.jpg");
+    background-image: url("../images2/bg-wizards-2.jpg");
 
     /* border: 5px solid black; */
     /* Full height */
@@ -283,7 +283,7 @@ footer li:hover i {
 }  */
 
 #hero-image {
-    background-image: url("../images/bg-wizards-2.jpg");
+    background-image: url("../images2/bg-wizards-2.jpg");
     background-size: cover;
     height: 100vh;
     width: 100%;
