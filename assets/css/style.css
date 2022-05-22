@@ -160,13 +160,13 @@ footer li:hover i {
 
 /* form */
 
-#contactForm {
+.contactForm {
         width: 300px;
         height: 500px;
         font-size: 1rem;
 }
 
-#contactForm label,
+.contactForm label,
 .form-select {
         color: darkslategray;
 
@@ -175,4 +175,8 @@ footer li:hover i {
 .form-select {
 
         border: 1px solid #ced4da;
+}
+
+.form-heading {
+        color: slategray;
 }
