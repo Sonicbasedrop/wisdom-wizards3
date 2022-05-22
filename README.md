@@ -1,14 +1,16 @@
 # Wisdom Wizards
 ![img](project_files/readme_images/project_banner.png)
-#### *The live site link can be found [Here](https://sonicbasedrop.github.io/wisdom-wizards3/)*
+## *The live site link can be found [Here]()*
 ### Table of contents
 
 1. [Introduction](#Introduction)
 1. [User Stories](#User-Stories)
 1. [Design](#Design)
-1. [Features](#Features)  
+1. [Features](#Features)
+1. [TESTING.md](project_files/TESTING.md)
+1. [Bugs and Issues TESTING.md](project_files/TESTING.md#Bugs-and-Issues)
+1. [W3C-Validation TESTING.md](project_files/TESTING.md#Validation)   
 1. [Technologies and Frameworks](#Technologies-and-Frameworks)
-1. [Manual Testing](#Manual-Testing)
 1. [Deployment](#Deployment)
 1. [Credits](#Credits)
 
@@ -34,10 +36,7 @@ Tasha Johnson on [GitHub](https://github.com/TashaTJ)\
 Ivan M Ulysses on [GitHub](https://github.com/Sonicbasedrop)\
 Wisam Altaqaly on [GitHub](https://github.com/WisamTa)\
 Martin McInerney on [GitHub](https://github.com/martin-mcinerney)\
-Eric Gaona on [GitHub](https://github.com/EricGaona)<br>
-Team Facilitator: Jim Morel on [GitHub](https://github.com/JimLynx)
-
-
+Eric Gaona on [GitHub](https://github.com/EricGaona)\
 
 
 ## User Stories
@@ -148,8 +147,6 @@ All the images was supplied from adobe stock photos
     - Footer was designed to be responsive across all devices.
     - Footer Contributors GitHub links and copyright information.
 
-## Manual Testings
-
 ## **Technologies and Frameworks**
 
 ### **Languages Used**
@@ -165,8 +162,6 @@ All the images was supplied from adobe stock photos
 - [GitHub:](https://github.com/) used to store the projects code.
 - [gitpod.io](https://gitpod.io/) gitpod Was used for codding.
 - [Balsamiq:](https://balsamiq.com/) was used to create the wireframes.
-- [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)<br>
-	 Google chromes built in developer tools are used to inspect page elements and help debug issues with the site layout and test different CSS styles.
 
 ## **Deployment**
 ### **Deploying on GitHub Pages**
@@ -174,10 +169,10 @@ All the images was supplied from adobe stock photos
 1. Locate the [GitHub Repository](https://github.com/Sonicbasedrop/wisdom-wizards3).
 1. At the top of the repository, select Settings from the menu items.
 1. Scroll down the Settings page to the "GitHub Pages" section.
-1. Under "Source" click the drop-down menu labelled "None" and select "Main Branch".
+1. Under "Source" click the drop-down menu labelled "None" and select "Master Branch".
 1. Upon selection, the page will automatically refresh meaning that the website is now deployed.
 1. Scroll back down to the "GitHub Pages" section to retrieve the deployed link.
-1. 
+1. At the time of submitting this Milestone project the Development Branch and Master Branch are identical.
 
 ### **Forking the Repository**
 1. Log into [GitHub](https://github.com/login) or [create an account](https://github.com/join).
@@ -214,8 +209,6 @@ git clone https://github.com/USERNAME/REPOSITORY
 [Code Institute](https://hackathon.codeinstitute.net/)<br>
 [Faraday Academy](https://www.youtube.com/c/FaradayAcademy/featured)<br>
 [freeCodeCamp](https://www.freecodecamp.org/news/how-to-become-a-git-expert-e7c38bf54826/)<br>
-
-Code:
 
 
 ### **Code**
