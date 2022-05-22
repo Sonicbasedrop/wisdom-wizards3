@@ -42,7 +42,6 @@ main {
     height: 90vh;
     width: 90vw;
     margin: 0px auto 0;
-
 }
 
 /* #hero-wizard {
@@ -52,16 +51,16 @@ main {
 } */
 
 img {
+
     display: block;
     height: 70%;
     width: 70%;
 
     margin: 0 auto;
     padding-top: 80px;
+
 }
-
-
-/* .container {
+ .container {
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr;
@@ -379,3 +378,110 @@ footer small {
     text-align: center;
     margin-bottom: 15px;
 }
+
+
+
+  /* 404 error page */
+
+  .mainbox {
+    background-color:  rgba(252, 253, 253, 0);
+    margin: auto;
+    height: 600px;
+    width: 600px;
+    position: relative;
+  }
+  
+    .err {
+      color: #000;
+      font-family: 'Nunito Sans', sans-serif;
+      font-size: 11rem;
+      position:absolute;
+      left: 20%;
+      top: 8%;
+    }
+  
+  .far {
+    position: absolute;
+    font-size: 8.5rem;
+    left: 42%;
+    top: 15%;
+    color: #000;
+  }
+  
+   .err2 {
+      color: #000;
+      font-family: 'Nunito Sans', sans-serif;
+      font-size: 11rem;
+      position:absolute;
+      left: 68%;
+      top: 8%;
+    }
+  
+  .msg {
+      text-align: center;
+      font-family: 'Nunito Sans', sans-serif;
+      font-size: 1.6rem;
+      position:absolute;
+      left: 16%;
+      top: 45%;
+      width: 75%;
+    }
+  
+  #err-home {
+    text-decoration: none;
+    color: green;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+/* sign up page */
+
+#form {
+    overflow: scroll;
+ 
+}
+
+.become-a-wizard {
+    align-items: center;
+    text-align: center;
+}
+
+#ethel-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 0;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    align-items: center;
+}
+
+#ethel-headshot {
+    align-items: center;
+    height: 50%;
+    width: 50%;
+}
+
+#wizettes-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 0;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    align-items: center;
+}
+
+#wizettes-headshot {
+    align-items: center;
+    height: 80%;
+    width: 80%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
