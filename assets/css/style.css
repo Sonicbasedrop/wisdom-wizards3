@@ -4,7 +4,6 @@
 /* Reset margin and padding */
 * {
         margin: 0;
-        font-size: 2rem;
         padding: 0;
 }
 
@@ -157,4 +156,23 @@ footer i {
 footer li:hover i {
         color: black;
 
+}
+
+/* form */
+
+#contactForm {
+        width: 300px;
+        height: 500px;
+        font-size: 1rem;
+}
+
+#contactForm label,
+.form-select {
+        color: darkslategray;
+
+}
+
+.form-select {
+
+        border: 1px solid #ced4da;
 }
