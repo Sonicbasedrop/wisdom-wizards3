@@ -5,15 +5,35 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Bootstrap stylesheet -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-                integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+        <meta name="description"
+                content="Wisdom Wizards is providing a platform for the more experienced citizens of Earth to share their hard gained wisdom.">
+        <meta name="keywords" content="wisdom, wizards, webinar, talk, video">
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+                integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
                 crossorigin="anonymous">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <title>Wisdom Wizards</title>
+
+        <!-- Bootstrap icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+
+        <link rel="stylesheet" href="assets/css/style2.css">
+        <title>Fromtend Bootcamp</title>
+
+        <style>
+                .hol {
+                        width: 555px;
+                        height: 888px;
+                        background-color: aqua;
+                }
+
+                /* .ncost a{  // esto es haciendo una prueba para cambiar el color de las a
+            color:red;
+        } */
+        </style>
 </head>
 
 <body>
+
         <div id="backg">
 
         </div>
@@ -26,6 +46,45 @@
                         </div>
                         <div>
                                 <img src="assets/images/Ethel-headshot-trans.png">
+
+        <nav class="navbar navbar-expand-lg py-3">
+                <div class="container-fluid">
+                        <a href="index.html" class="navbar-brand">Wisdom Wizards</a>
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navmenu">
+                                <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navmenu">
+                                <ul class="navbar-nav ms-auto">
+                                        <li class="nav-item">
+                                                <a href="about.html" class="nav-link">About</a>
+                                        </li>
+                                        <li class="nav-item">
+                                                <a href="contact-form.html" class="nav-link">Sign Up</a>
+                                        </li>
+                                        <li class="nav-item">
+                                                <a href="wizard.html" class="nav-link">Wizards</a>
+                                        </li>
+                                        <li class="nav-item">
+                                                <a href="#" class="nav-link">Requests</a>
+                                        </li>
+                                </ul>
+                        </div>
+                </div>
+        </nav>
+
+        </div>
+        <section id="form">
+                <!-- Wrapper container -->
+                <div class="container py-4">
+                        <div class="form-heading">
+                                <h2 class="become-a-wizard">Become a Wizard</h2>
+                        </div>
+                        <div id="ethel-heading">
+                                <img id="ethel-headshot" src="assets/images/Ethel-headshot-trans.png">
+
                         </div>
                         <!-- Bootstrap 5 starter form -->
                         <form id="contactForm" data-sb-form-api-token="API_TOKEN">
@@ -70,6 +129,7 @@
                                         </div>
                                 </div>
 
+
                                 <!-- Form submissions success message -->
                                 <div class="d-none" id="submitSuccessMessage">
                                         <div class="text-center mb-3">Form submission successful!</div>
@@ -88,18 +148,46 @@
 
                         </form>
 
+
+                                <!-- Form submissions success message -->
+                                <div class="d-none" id="submitSuccessMessage">
+                                        <div class="text-center mb-3">Form submission successful!</div>
+                                </div>
+
+                                <!-- Form submissions error message -->
+                                <div class="d-none" id="submitErrorMessage">
+                                        <div class="text-center text-danger mb-3">Error sending message!</div>
+                                </div>
+
+                                <!-- Form submit button -->
+                                <div class="d-grid">
+                                        <button class="btn btn-primary btn-lg disabled" id="submitButton"
+                                                type="submit">Submit</button>
+                                </div>
+
+                        </form>
+
+
                 </div>
 
                 <!-- Wrapper container -->
                 <div class="container py-4">
                         <div class="form-heading">
 
+
                                 <h2>Become a Wizard</h2>
                                 <p></p>
                                 <img src="assets/images/wizettes-group_-min.png">
+
+                                <h2 class="become-a-wizard">Become a Wizette</h2>
+                        </div>
+                        <div id="wizettes-heading">
+                                <img id="wizettes-headshot" src="assets/images/wizettes-group_-min.png">
+
                         </div>
                         <!-- Bootstrap 5 starter form -->
                         <form class="contactForm" data-sb-form-api-token="API_TOKEN">
+
 
                                 <!-- Name input -->
                                 <div class="mb-3">
@@ -163,16 +251,106 @@
         </section>
 
 
-        <!-- SB Forms JS -->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+                        <!-- Bootstrap 5 starter form -->
+                        <form class="contactForm" data-sb-form-api-token="API_TOKEN">
 
-        <!-- Bootstrap script -->
-        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-                crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
-                crossorigin="anonymous"></script>
+                                <!-- Name input -->
+                                <div class="mb-3">
+                                        <label class="form-label" for="name">Name</label>
+                                        <input class="form-control" id="name" type="text" placeholder="Name"
+                                                data-sb-validations="required" />
+                                        <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.
+                                        </div>
+                                </div>
+
+
+                                <!-- Email address input -->
+                                <div class="mb-3">
+                                        <label class="form-label" for="emailAddress">Email Address</label>
+                                        <input class="form-control" id="emailAddress" type="email"
+                                                placeholder="Email Address" data-sb-validations="required, email" />
+                                        <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email
+                                                Address is
+                                                required.</div>
+                                        <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email
+                                                Address Email
+                                                is not valid.</div>
+                                </div>
+                                <!-- drop down -->
+                                <div class="mb-3">
+                                        <select class="form-select" aria-label="Default select example">
+                                                <option selected>What are you?</option>
+                                                <option value="1">Wizard (speaker)</option>
+                                                <option value="2">Wizette (listener)</option>
+                                        </select>
+                                </div>
+
+                                <!-- Message input -->
+                                <div class="mb-3">
+                                        <label class="form-label" for="message">Message</label>
+                                        <textarea class="form-control" id="message" type="text" placeholder="Message"
+                                                style="height: 10rem;" data-sb-validations="required"></textarea>
+                                        <div class="invalid-feedback" data-sb-feedback="message:required">Message is
+                                                required.
+                                        </div>
+                                </div>
+
+                                <!-- Form submissions success message -->
+                                <div class="d-none" id="submitSuccessMessage">
+                                        <div class="text-center mb-3">Form submission successful!</div>
+                                </div>
+
+                                <!-- Form submissions error message -->
+                                <div class="d-none" id="submitErrorMessage">
+                                        <div class="text-center text-danger mb-3">Error sending message!</div>
+                                </div>
+
+                                <!-- Form submit button -->
+                                <div class="d-grid">
+                                        <button class="btn btn-primary btn-lg disabled" id="submitButton"
+                                                type="submit">Submit</button>
+                                </div>
+
+                        </form>
+
+                </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="fixed-bottom align-middle ">
+
+
+                <div class="row" id="cenFoo">
+                        <div class="col-sm-6 col-md-2 ">
+                                <a href="#" class="tap-target" rel="noopener" target="_blank"></i>Tasha</a><br>
+                        </div>
+                        <div class="col-sm-6 col-md-2 ">
+                                <a href="#" class="tap-target" rel="noopener" target="_blank">Ivan</a><br>
+                        </div>
+                        <div class="col-sm-6 col-md-2 ">
+                                <a href="#" class="tap-target" rel="noopener" target="_blank">Wisam</a><br>
+                        </div>
+                        <div class="col-sm-6 col-md-2 ">
+                                <a href="#" class="tap-target" rel="noopener" target="_blank">Martin</a><br>
+                        </div>
+                        <div class="col-sm-6 col-md-2 ">
+                                <a href="#" class="tap-target" rel="noopener" target="_blank">Eric</a>
+                        </div>
+                </div>
+                <div class="row">
+                        <div class="text-center">
+                                <small><i>Copyright &copy; Wisdom-wizards</i></small>
+                        </div>
+                </div>
+        </footer>
+
+
+
+        <!-- Bootstrap Js -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+                crossorigin="anonymous">
+        </script>
 </body>
 
 </html>
