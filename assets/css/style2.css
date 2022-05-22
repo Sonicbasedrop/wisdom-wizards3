@@ -43,7 +43,7 @@ main {
     width: 90vw;
     margin: 0px auto 0;
 
-}
+} 
 
 /* #hero-wizard {
     height: 100vh;
@@ -51,14 +51,14 @@ main {
     margin: 0 auto;
 } */
 
-img {
+/* img {
     display: block;
     height: 70%;
     width: 70%;
 
     margin: 0 auto;
     padding-top: 80px;
-}
+} */
 
 
 /* .container {
@@ -440,3 +440,55 @@ footer small {
     z-index: 5;
     text-decoration: none;
 }
+
+  
+/* sign up page */
+
+#form {
+    overflow: scroll;
+ 
+}
+
+.become-a-wizard {
+    align-items: center;
+    text-align: center;
+}
+
+#ethel-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 0;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    align-items: center;
+}
+
+#ethel-headshot {
+    align-items: center;
+    height: 50%;
+    width: 50%;
+}
+
+#wizettes-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 0;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    align-items: center;
+}
+
+#wizettes-headshot {
+    align-items: center;
+    height: 80%;
+    width: 80%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
