@@ -1,112 +1,218 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Wisdom Wizards
+![img](project_files/readme_images/project_banner.png)
+## *The live site link can be found [Here]()*
+### Table of contents
+
+1. [Introduction](#Introduction)
+1. [User Stories](#User-Stories)
+1. [Design](#Design)
+1. [Features](#Features)
+1. [TESTING.md](project_files/TESTING.md)
+1. [Bugs and Issues TESTING.md](project_files/TESTING.md#Bugs-and-Issues)
+1. [W3C-Validation TESTING.md](project_files/TESTING.md#Validation)   
+1. [Technologies and Frameworks](#Technologies-and-Frameworks)
+1. [Deployment](#Deployment)
+1. [Credits](#Credits)
+
+## Introduction
+Wisdom Wizards, connects older generations with the younger, via a weekly webinar service where the 'Wizards' educate the 'Wizettes' on anything from war tales to hangover cures! Anyone over 65 can sign up on the site to be 'Wizard', and any age under can sign up to be a 'wizette'.
+
+### **Project**
+Code Institute and Trust in SODA collaboratively present the May 2022 Hackathon
+
+### **Project Theme**
+Getting Connected:
+The theme for this month is the all about getting connected. 
+We Highlight the importance of 'staying connected' with solutions to help people connect virtually for a more connected world
+
+### **Project description**
+Wisdom Wizards, connects older generations with the younger, via a weekly webinar service where the 'Wizards' educate the 'Wizettes' on anything from war tales to hangover cures! Anyone over 65 can sign up on the site to be 'Wizard', and any age under can sign up to be a 'wizette'.
+
+The website is build using primarily HTML5, CSS3 and Bootstrap.
+
+### **Team: JavaCadabra**
+ 
+Tasha Johnson on [GitHub](https://github.com/TashaTJ)\
+Ivan M Ulysses on [GitHub](https://github.com/Sonicbasedrop)\
+Wisam Altaqaly on [GitHub](https://github.com/WisamTa)\
+Martin McInerney on [GitHub](https://github.com/martin-mcinerney)\
+Eric Gaona on [GitHub](https://github.com/EricGaona)\
 
 
-Welcome Team JAvacadabra,
+## User Stories
 
-MERGE CONFLICT
+### **User goals**
+- As a user, I want to be able to access site on various devices such us mobile, tablet or pc.
+- As a user, I want to easily understand the main purpose of the site.
+- As a user, I want to be able to easily navigate throughout the site to find desired content.
 
+### **Site owner goals**
+- As a Site owner, we want to connects with the younger generation, via a weekly webinar service where the 'Wizards' educate the 'Wizettes' on anything from war tales to hangover cures.
+- As a Site owner, I want to Provide everyone who visits the site to have a good user experience.
+- As a Site owner, I want to Provide user with easy site navigation.
+- As a site owner, I want to provide user with contact options to Improve.customer satisfaction through better service.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+### **The website needs to enable the User to**
+- Able to understand the main purpose of the site.
+- Navigate the site easily through categories clearly.
+- Easy Navigate the site and find the relevant content.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+### **The website needs to**
+- Provide user with simple user friendly interface.
+- Provide a good site navigation to easy understand.
+- Categorize content by its Subject types and relevance.
+- To Provide user with contact options.
 
-## Gitpod Reminders
+## Scope
+### **Functionality Requirements**
+- The website
+    - Use of Bootstrap for responsive design
+- Website Navigation with internal site links.
+   - Internal lins is Linked in the website template pages 
+   - Categorized navigation by its Subject types and relevance.
+   - Responsive bootstrap website navigation
+- Thumbnail Gallery view
+    - On click to reveal individual item detailed view with Javascript or Bootstarp.
+- Customer Support contact form.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### **Content Requirements**
+- NavBar
+   - Internal site navigation Links with categories
+   - Site brand name
+   - Links to social media
+- Landing Page
+   - Full size Central Hero image
+- About page
+    - Short description 
+- Detailed view 
+    - Wizard Image
+    - Wisdom Wizard Resume
+- Sign page
+   - Contact Form
+- footer
+   - Links to Contributor Github pages
+   - Copyright information
+   
+## Skeleton
+### **Wireframes**
 
-`python3 -m http.server`
+- [Landing Page Wireframe](project_files/wireframes/desktop_landing_page.png)
+  Showing more information of what the site is about, have an about file, signup, wizards, requests. <br>
+- [About Page Wireframes](project_files/wireframes/about_page.png)<br>
+  Showing more specific information about the website's purpose, we are a group of wise wizards eager to share our wisdom with the younger generations in weekly webinars to you, our Wizettes! Subjects range from child rearing to war stories to how to ward o! a hangover! Each session is an hour long and ends with a 20-minute Q&A.<br>
+- [Sign Up Page Wireframes](project_files/wireframes/sign_up_page.png)<br>
+  To become a wizard and to be able to host webinars<br>
+- [Wizard Page Wireframes](project_files/wireframes/wizards.png)<br>
+  Contains all wizard's profiles so users can choose a wise wizard to attend their webinar<br>
+- [Request Page Wireframes](project_files/wireframes/requests_page.png)<br>
+  Sending requests to a wizard to attend thier wibinar
 
-A blue button should appear to click: _Make Public_,
+## Design
+### **Color Scheme**
+- Color scheme used through out the site.
 
-Another blue button should appear to click: _Open Browser_.
+Can be found[here](project_files/readme_images/wisdom_wizard.png)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### **Fonts**
+- Body main text font Oswald As a backup sans-serif.
+- Header-text font family Roboto As a backup sans-serif.
 
-A blue button should appear to click: _Make Public_,
+### **Media**
+All the images was supplied from adobe stock photos
+## Features 
+### **Existing Features**
 
-Another blue button should appear to click: _Open Browser_.
+- **Navigation**
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+    - Featured on all pages, the full responsive navigation bar includes links to the Logo, Home page and is identical in each page to allow for easy navigation.
+    - Allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-To log into the Heroku toolbelt CLI:
+- **Landing page** 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+    - Large background image span the full width across the whole viewport and is responsive to all other browser sizes.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- **About page**
 
-------
+    - Responsive Image Grid that varies depending on screen size.
+    - Click on image to reveal individual item detailed Modal.
+    - Some of the Thumbnail images was created in Adobe illustrator to match rest of the images
 
-## Release History
+- **Sign up Page**
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+    - Contact form allows users to communicate with the Wisdom Wizards
+    - Contact page features Contributors names and contact info
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+- **Footer**
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+    - Footer was designed to be responsive across all devices.
+    - Footer Contributors GitHub links and copyright information.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+## **Technologies and Frameworks**
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### **Languages Used**
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5) Hypertext Markup Language (HTML)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) Cascading Style Sheets (CSS)
+-   [Bootstrap](https://getbootstrap.com/) Interactive functionality.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### **Frameworks, Libraries & Programs Used**
+- [Bootstrap:](https://getbootstrap.com/docs/5.0/getting-started/download/) was used to assist with the responsiveness and to style the website.
+- [Google Fonts:](https://fonts.google.com/) were used throughout the site.
+- [jQuery:](https://jquery.com/) came with Bootstrap.
+- [Git](https://git-scm.com/) Git was used for version control.
+- [GitHub:](https://github.com/) used to store the projects code.
+- [gitpod.io](https://gitpod.io/) gitpod Was used for codding.
+- [Balsamiq:](https://balsamiq.com/) was used to create the wireframes.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## **Deployment**
+### **Deploying on GitHub Pages**
+1. Log into [GitHub](https://github.com/login) or [create an account](https://github.com/join).
+1. Locate the [GitHub Repository](https://github.com/Sonicbasedrop/wisdom-wizards3).
+1. At the top of the repository, select Settings from the menu items.
+1. Scroll down the Settings page to the "GitHub Pages" section.
+1. Under "Source" click the drop-down menu labelled "None" and select "Master Branch".
+1. Upon selection, the page will automatically refresh meaning that the website is now deployed.
+1. Scroll back down to the "GitHub Pages" section to retrieve the deployed link.
+1. At the time of submitting this Milestone project the Development Branch and Master Branch are identical.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### **Forking the Repository**
+1. Log into [GitHub](https://github.com/login) or [create an account](https://github.com/join).
+1. Locate the [GitHub Repository](https://github.com/Sonicbasedrop/wisdom-wizards3).
+1. At the top of the repository, on the right side of the page, select "Fork"
+1. You should now have a copy of the original repository in your GitHub account.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### **Creating a Clone**
+1. Install the [GitPod Browser](https://www.gitpod.io/docs/browser-extension/) Extension for Chrome.
+1. After installation, restart the browser.
+1. Log into [GitHub](https://github.com/login) or [create an account](https://github.com/join).
+1. Locate the [GitHub Repository](https://github.com/Sonicbasedrop/wisdom-wizards3).
+1. Click the green "GitPod" button in the top right corner of the repository.
+This will trigger a new gitPod workspace to be created from the code in github where you can work locally.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
+**How to run this project within a local IDE, such as VSCode:**
+1. Log into [GitHub](https://github.com/login) or [create an account](https://github.com/join).
+1. Locate the [GitHub Repository](https://github.com/Sonicbasedrop/wisdom-wizards3").
+1. Under the repository name, click "Clone or download".
+1. In the Clone with HTTPs section, copy the clone URL for the repository.
+1. In your local IDE open the terminal.
+1. Change the current working directory to the location where you want the cloned directory to be made.
+1. Type 'git clone', and then paste the URL you copied in Step 3.
 ```
-pkill uptime.sh
-rm .vscode/uptime.sh
+git clone https://github.com/USERNAME/REPOSITORY
 ```
+8. Press Enter. Your local clone will be created.
 
-**Anything more?**
+  Further reading and troubleshooting on cloning a repository from GitHub [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository) 
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+## Credits 
 
----
+[Code Institute](https://hackathon.codeinstitute.net/)<br>
+[Faraday Academy](https://www.youtube.com/c/FaradayAcademy/featured)<br>
+[freeCodeCamp](https://www.freecodecamp.org/news/how-to-become-a-git-expert-e7c38bf54826/)<br>
 
-Happy coding!
+
+### **Code**
+-  [stackoverflow.com](https://stackoverflow.com/): Useful website for code tips.
+
+### Content 
+
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
