@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&family=Roboto:wght@100;300&display=swap');
+
+
+/* Reset margin and padding */
+/* * {
+    margin: 0;
+    font-size: 2rem;
+    padding: 0;
+}
+
+body,
+html {
+    height: 100%;
+    font: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    color: white;
+} */
+
+div.bg1 {
+    height: 100%;
+    width: 100%;
+    /* The image used */
+    background-image: url("../images2/bg-wizards-2.jpg");
+
+    /* border: 5px solid black; */
+    /* Full height */
+
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    height: 90vh;
+    width: 90vw;
+    margin: 0px auto 0;
+
+}
+
+/* #hero-wizard {
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+} */
+
+img {
+    display: block;
+    height: 70%;
+    width: 70%;
+
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+
+/* .container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.4fr 2.7fr 0.4fr;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu {
+    font-size: 1.2rem;
+    float: right;
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 1rem;
+    color: white;
+    font-family: Oswald, sans-serif;
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+}
+
+h1:hover {
+    color: orange;
+} */
+
+/*body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 10px;
+} */
+
+/* h1 {
+    color: white;
+    font-size: 3rem;
+    font-family: Oswald, sans-serif;
+}
+
+#logo {
+    font-size: 4rem;
+    margin-left: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+/* modal */
+
+
+/* .modal-newsletter {
+    color: #999;
+    font-size: 15px;
+}
+
+.modal-newsletter .modal-content {
+    padding: 40px;
+    border-radius: 0;
+    border: none;
+}
+
+.modal-newsletter .modal-header {
+    border-bottom: none;
+    position: relative;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+}
+
+.modal-newsletter h4 {
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    margin: 0 0 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.modal-newsletter .close {
+    background: #c0c3c8;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    color: #fff;
+    text-shadow: none;
+    opacity: 0.5;
+    width: 22px;
+    height: 22px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.modal-newsletter .close span {
+    position: relative;
+    top: -1px;
+}
+
+.modal-newsletter .close:hover {
+    opacity: 0.8;
+}
+
+.modal-newsletter .form-control,
+.modal-newsletter .btn {
+    min-height: 46px;
+    border-radius: 3px;
+}
+
+.modal-newsletter .form-control {
+    box-shadow: none;
+    border-color: #dbdbdb;
+}
+
+.modal-newsletter .form-control:focus {
+    border-color: #19bc9c;
+    box-shadow: 0 0 8px rgba(114, 101, 234, 0.5);
+}
+
+.modal-newsletter .btn {
+    color: #fff;
+    border-radius: 4px;
+    background: #19bc9c;
+    text-decoration: none;
+    transition: all 0.4s;
+    line-height: normal;
+    padding: 6px 20px;
+    min-width: 150px;
+    border: none;
+}
+
+.modal-newsletter .btn:hover,
+.modal-newsletter .btn:focus {
+    background: #4e3de4;
+    outline: none;
+}
+
+.modal-newsletter .input-group {
+    margin: 30px 0 15px;
+}
+
+.hint-text {
+    margin: 100px auto;
+    text-align: center;
+}
+
+#modal-text {
+    color: #24231f;
+}
+
+/*      footer      */
+
+/* footer {
+    text-align: center;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    background-color: #871D39;
+    vertical-align: middle;
+    padding-top: 10px;
+}
+
+footer ul {
+    list-style-type: none;
+    text-align: center;
+    font-size: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+li:hover {
+    transform: translateY(-5px) scale(1.05);
+}
+
+footer li {
+    display: inline;
+    margin: 0 10px;
+    font-size: 1.5rem;
+}
+
+footer p {
+    font-size: 1rem;
+    font-weight: 900;
+    padding-top: 5px;
+    text-align: center;
+    color: #ECE5DE;
+}
+
+footer i {
+    color: #ECE5DE;
+}
+
+footer li:hover i {
+    color: black;
+
+}  */
+
+#hero-image {
+    background-image: url("../images2/bg-wizards-2.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-position: bottom;
+    background-color: var(--pastel-green);
+}
+
+/* #hero-wizard {
+    background-image: url("../images/hero-wizard.png");
+    background-size: cover;
+    height: 50vh;
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-position: bottom;
+    background-color: var(--pastel-green);
+} */
+
+#main {
+    position: relative;
+    transform: translate(-50%);
+    left: 50%;
+
+
+}
+
+#main img {
+    max-width: 40%;
+    max-height: 40%;
+    min-width: 30%;
+    min-height: 30;
+}
+
+footer {
+    padding: 18px 0;
+    background-color: #fff;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000;
+
+
+
+}
+
+footer small {
+    text-decoration: none;
+    font-size: 12px;
+    color: #000;
+    margin-bottom: 5px;
+
+}
+
+.navbar {
+    background-color: #fff;
+    color: #000;
+}
+
+.navbar a {
+
+    color: #000;
+
+}
+
+.navbar .navbar-brand {
+
+    color: #000;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#cenFoo {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cenFoo div {
+
+    text-align: center;
+    margin-bottom: 15px;
+}
