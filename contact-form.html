@@ -34,22 +34,9 @@
 
 <body>
 
-        <div id="backg">
-
-        </div>
-        <section id="form">
-                <!-- Wrapper container -->
-                <div class="container py-4">
-                        <div class="form-heading">
-                                <h2>Become a Wizard</h2>
-
-                        </div>
-                        <div>
-                                <img src="assets/images/Ethel-headshot-trans.png">
-
         <nav class="navbar navbar-expand-lg py-3">
                 <div class="container-fluid">
-                        <a href="#" class="navbar-brand">Wisdom Wizards</a>
+                        <a href="index.html" class="navbar-brand">Wisdom Wizards</a>
 
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navmenu">
@@ -59,282 +46,212 @@
                         <div class="collapse navbar-collapse" id="navmenu">
                                 <ul class="navbar-nav ms-auto">
                                         <li class="nav-item">
-                                                <a href="#" class="nav-link">About</a>
+                                                <a href="about.html" class="nav-link">About</a>
                                         </li>
                                         <li class="nav-item">
                                                 <a href="contact-form.html" class="nav-link">Sign Up</a>
                                         </li>
                                         <li class="nav-item">
-                                                <a href="#" class="nav-link">Wizards</a>
-                                        </li>
-                                        <li class="nav-item">
-                                                <a href="#" class="nav-link">Requests</a>
+                                                <a href="wizard.html" class="nav-link">Wizards</a>
                                         </li>
                                 </ul>
                         </div>
                 </div>
         </nav>
 
-        <section id="form">
-                <!-- Wrapper container -->
-                <div class="container py-4">
-                        <div class="form-heading">
-                                <h2 class="become-a-wizard">Become a Wizard</h2>
-                        </div>
-                        <div id="ethel-heading">
-                                <img id="ethel-headshot" src="assets/images/Ethel-headshot-trans.png">
+        <div class="container-fluid" id="hero-image-2">
 
-                        </div>
-                        <!-- Bootstrap 5 starter form -->
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                <section id="form">
+                        <!-- Wrapper container -->
+                        <div class="container py-4">
+                                <div class="form-heading">
+                                        <h2 class="become-a-wizard">Become a Wizard</h2>
+                                </div>
+                                <div id="ethel-heading">
+                                        <img id="ethel-headshot" src="assets/images/Ethel-headshot-trans.png">
 
-                                <!-- Name input -->
-                                <div class="mb-3">
-                                        <label class="form-label" for="name">Name</label>
-                                        <input class="form-control" id="name" type="text" placeholder="Name"
-                                                data-sb-validations="required" />
-                                        <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.
+                                </div>
+                                <!-- Bootstrap 5 starter form -->
+                                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+
+                                        <!-- Name input -->
+                                        <div class="mb-3">
+                                                <label class="form-label" for="name">Name</label>
+                                                <input class="form-control" id="name" type="text" placeholder="Name"
+                                                        data-sb-validations="required" />
+                                                <div class="invalid-feedback" data-sb-feedback="name:required">Name is
+                                                        required.
+                                                </div>
                                         </div>
-                                </div>
 
-                                <!-- Email address input -->
-                                <div class="mb-3">
-                                        <label class="form-label" for="emailAddress">Email Address</label>
-                                        <input class="form-control" id="emailAddress" type="email"
-                                                placeholder="Email Address" data-sb-validations="required, email" />
-                                        <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email
-                                                Address is
-                                                required.</div>
-                                        <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email
-                                                Address Email
-                                                is not valid.</div>
-                                </div>
-                                <!-- drop down -->
-                                <div class="mb-3">
-                                        <select class="form-select" aria-label="Default select example">
-                                                <option selected>What are you?</option>
-                                                <option value="1">Wizard (speaker)</option>
-                                                <option value="2">Wizette (listener)</option>
-                                        </select>
-                                </div>
-
-                                <!-- Message input -->
-                                <div class="mb-3">
-                                        <label class="form-label" for="message">Message</label>
-                                        <textarea class="form-control" id="message" type="text" placeholder="Message"
-                                                style="height: 10rem;" data-sb-validations="required"></textarea>
-                                        <div class="invalid-feedback" data-sb-feedback="message:required">Message is
-                                                required.
+                                        <!-- Email address input -->
+                                        <div class="mb-3">
+                                                <label class="form-label" for="emailAddress">Email Address</label>
+                                                <input class="form-control" id="emailAddress" type="email"
+                                                        placeholder="Email Address"
+                                                        data-sb-validations="required, email" />
+                                                <div class="invalid-feedback" data-sb-feedback="emailAddress:required">
+                                                        Email
+                                                        Address is
+                                                        required.</div>
+                                                <div class="invalid-feedback" data-sb-feedback="emailAddress:email">
+                                                        Email
+                                                        Address Email
+                                                        is not valid.</div>
                                         </div>
-                                </div>
+                                        <!-- drop down -->
+                                        <div class="mb-3">
+                                                <select class="form-select" aria-label="Default select example">
+                                                        <option selected>What are you?</option>
+                                                        <option value="1">Wizard (speaker)</option>
+                                                        <option value="2">Wizette (listener)</option>
+                                                </select>
+                                        </div>
+
+                                        <!-- Message input -->
+                                        <div class="mb-3">
+                                                <label class="form-label" for="message">Message</label>
+                                                <textarea class="form-control" id="message" type="text"
+                                                        placeholder="Message" style="height: 10rem;"
+                                                        data-sb-validations="required"></textarea>
+                                                <div class="invalid-feedback" data-sb-feedback="message:required">
+                                                        Message is
+                                                        required.
+                                                </div>
+                                        </div>
 
 
-                                <!-- Form submissions success message -->
-                                <div class="d-none" id="submitSuccessMessage">
-                                        <div class="text-center mb-3">Form submission successful!</div>
-                                </div>
+                                        <!-- Form submissions success message -->
+                                        <div class="d-none" id="submitSuccessMessage">
+                                                <div class="text-center mb-3">Form submission successful!</div>
+                                        </div>
 
-                                <!-- Form submissions error message -->
-                                <div class="d-none" id="submitErrorMessage">
-                                        <div class="text-center text-danger mb-3">Error sending message!</div>
-                                </div>
+                                        <!-- Form submissions error message -->
+                                        <div class="d-none" id="submitErrorMessage">
+                                                <div class="text-center text-danger mb-3">Error sending message!</div>
+                                        </div>
 
-                                <!-- Form submit button -->
-                                <div class="d-grid">
-                                        <button class="btn btn-primary btn-lg disabled" id="submitButton"
-                                                type="submit">Submit</button>
-                                </div>
-
-                        </form>
+                                        <!-- Form submit button -->
+                                        <div class="d-grid">
+                                                <button class="btn btn-primary btn-lg disabled" id="submitButton"
+                                                        type="submit">Submit</button>
+                                        </div>
 
 
-                                <!-- Form submissions success message -->
-                                <div class="d-none" id="submitSuccessMessage">
-                                        <div class="text-center mb-3">Form submission successful!</div>
-                                </div>
 
-                                <!-- Form submissions error message -->
-                                <div class="d-none" id="submitErrorMessage">
-                                        <div class="text-center text-danger mb-3">Error sending message!</div>
-                                </div>
-
-                                <!-- Form submit button -->
-                                <div class="d-grid">
-                                        <button class="btn btn-primary btn-lg disabled" id="submitButton"
-                                                type="submit">Submit</button>
-                                </div>
-
-                        </form>
-
-
-                </div>
-
-                <!-- Wrapper container -->
-                <div class="container py-4">
-                        <div class="form-heading">
-
-
-                                <h2>Become a Wizard</h2>
-                                <p></p>
-                                <img src="assets/images/wizettes-group_-min.png">
-
-                                <h2 class="become-a-wizard">Become a Wizette</h2>
-                        </div>
-                        <div id="wizettes-heading">
-                                <img id="wizettes-headshot" src="assets/images/wizettes-group_-min.png">
 
                         </div>
-                        <!-- Bootstrap 5 starter form -->
-                        <form class="contactForm" data-sb-form-api-token="API_TOKEN">
+
+                        <!-- Wrapper container -->
+                        <div class="container py-4">
+                                <div class="form-heading">
 
 
-                                <!-- Name input -->
-                                <div class="mb-3">
-                                        <label class="form-label" for="name">Name</label>
-                                        <input class="form-control" id="name" type="text" placeholder="Name"
-                                                data-sb-validations="required" />
-                                        <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.
+                                        <h2>Become a Wizard</h2>
+                                        <p></p>
+
+
+                                        <h2 class="become-a-wizard">Become a Wizette</h2>
+                                </div>
+                                <div id="wizettes-heading">
+                                        <img id="wizettes-headshot" src="assets/images/wizettes-group_-min.png">
+
+                                </div>
+                                <!-- Bootstrap 5 starter form -->
+                                <form class="contactForm" data-sb-form-api-token="API_TOKEN">
+
+
+                                        <!-- Name input -->
+                                        <div class="mb-3">
+                                                <label class="form-label" for="name">Name</label>
+                                                <input class="form-control" id="name" type="text" placeholder="Name"
+                                                        data-sb-validations="required" />
+                                                <div class="invalid-feedback" data-sb-feedback="name:required">Name is
+                                                        required.
+                                                </div>
                                         </div>
-                                </div>
 
-                                <!-- Email address input -->
-                                <div class="mb-3">
-                                        <label class="form-label" for="emailAddress">Email Address</label>
-                                        <input class="form-control" id="emailAddress" type="email"
-                                                placeholder="Email Address" data-sb-validations="required, email" />
-                                        <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email
-                                                Address is
-                                                required.</div>
-                                        <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email
-                                                Address Email
-                                                is not valid.</div>
-                                </div>
-                                <!-- drop down -->
-                                <div class="mb-3">
-                                        <select class="form-select" aria-label="Default select example">
-                                                <option selected>What are you?</option>
-                                                <option value="1">Wizard (speaker)</option>
-                                                <option value="2">Wizette (listener)</option>
-                                        </select>
-                                </div>
-
-                                <!-- Message input -->
-                                <div class="mb-3">
-                                        <label class="form-label" for="message">Message</label>
-                                        <textarea class="form-control" id="message" type="text" placeholder="Message"
-                                                style="height: 10rem;" data-sb-validations="required"></textarea>
-                                        <div class="invalid-feedback" data-sb-feedback="message:required">Message is
-                                                required.
+                                        <!-- Email address input -->
+                                        <div class="mb-3">
+                                                <label class="form-label" for="emailAddress">Email Address</label>
+                                                <input class="form-control" id="emailAddress" type="email"
+                                                        placeholder="Email Address"
+                                                        data-sb-validations="required, email" />
+                                                <div class="invalid-feedback" data-sb-feedback="emailAddress:required">
+                                                        Email
+                                                        Address is
+                                                        required.</div>
+                                                <div class="invalid-feedback" data-sb-feedback="emailAddress:email">
+                                                        Email
+                                                        Address Email
+                                                        is not valid.</div>
                                         </div>
-                                </div>
-
-                                <!-- Form submissions success message -->
-                                <div class="d-none" id="submitSuccessMessage">
-                                        <div class="text-center mb-3">Form submission successful!</div>
-                                </div>
-
-                                <!-- Form submissions error message -->
-                                <div class="d-none" id="submitErrorMessage">
-                                        <div class="text-center text-danger mb-3">Error sending message!</div>
-                                </div>
-
-                                <!-- Form submit button -->
-                                <div class="d-grid">
-                                        <button class="btn btn-primary btn-lg disabled" id="submitButton"
-                                                type="submit">Submit</button>
-                                </div>
-
-                        </form>
-
-                </div>
-        </section>
-
-
-                        <!-- Bootstrap 5 starter form -->
-                        <form class="contactForm" data-sb-form-api-token="API_TOKEN">
-
-                                <!-- Name input -->
-                                <div class="mb-3">
-                                        <label class="form-label" for="name">Name</label>
-                                        <input class="form-control" id="name" type="text" placeholder="Name"
-                                                data-sb-validations="required" />
-                                        <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.
+                                        <!-- drop down -->
+                                        <div class="mb-3">
+                                                <select class="form-select" aria-label="Default select example">
+                                                        <option selected>What are you?</option>
+                                                        <option value="1">Wizard (speaker)</option>
+                                                        <option value="2">Wizette (listener)</option>
+                                                </select>
                                         </div>
-                                </div>
 
-
-                                <!-- Email address input -->
-                                <div class="mb-3">
-                                        <label class="form-label" for="emailAddress">Email Address</label>
-                                        <input class="form-control" id="emailAddress" type="email"
-                                                placeholder="Email Address" data-sb-validations="required, email" />
-                                        <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email
-                                                Address is
-                                                required.</div>
-                                        <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email
-                                                Address Email
-                                                is not valid.</div>
-                                </div>
-                                <!-- drop down -->
-                                <div class="mb-3">
-                                        <select class="form-select" aria-label="Default select example">
-                                                <option selected>What are you?</option>
-                                                <option value="1">Wizard (speaker)</option>
-                                                <option value="2">Wizette (listener)</option>
-                                        </select>
-                                </div>
-
-                                <!-- Message input -->
-                                <div class="mb-3">
-                                        <label class="form-label" for="message">Message</label>
-                                        <textarea class="form-control" id="message" type="text" placeholder="Message"
-                                                style="height: 10rem;" data-sb-validations="required"></textarea>
-                                        <div class="invalid-feedback" data-sb-feedback="message:required">Message is
-                                                required.
+                                        <!-- Message input -->
+                                        <div class="mb-3">
+                                                <label class="form-label" for="message">Message</label>
+                                                <textarea class="form-control" id="message" type="text"
+                                                        placeholder="Message" style="height: 10rem;"
+                                                        data-sb-validations="required"></textarea>
+                                                <div class="invalid-feedback" data-sb-feedback="message:required">
+                                                        Message is
+                                                        required.
+                                                </div>
                                         </div>
-                                </div>
 
-                                <!-- Form submissions success message -->
-                                <div class="d-none" id="submitSuccessMessage">
-                                        <div class="text-center mb-3">Form submission successful!</div>
-                                </div>
+                                        <!-- Form submissions success message -->
+                                        <div class="d-none" id="submitSuccessMessage">
+                                                <div class="text-center mb-3">Form submission successful!</div>
+                                        </div>
 
-                                <!-- Form submissions error message -->
-                                <div class="d-none" id="submitErrorMessage">
-                                        <div class="text-center text-danger mb-3">Error sending message!</div>
-                                </div>
+                                        <!-- Form submissions error message -->
+                                        <div class="d-none" id="submitErrorMessage">
+                                                <div class="text-center text-danger mb-3">Error sending message!</div>
+                                        </div>
 
-                                <!-- Form submit button -->
-                                <div class="d-grid">
-                                        <button class="btn btn-primary btn-lg disabled" id="submitButton"
-                                                type="submit">Submit</button>
-                                </div>
+                                        <!-- Form submit button -->
+                                        <div class="d-grid">
+                                                <button class="btn btn-primary btn-lg disabled" id="submitButton"
+                                                        type="submit">Submit</button>
+                                        </div>
 
-                        </form>
+                                </form>
 
-                </div>
-        </section>
+                        </div>
+                </section>
 
-        
+        </div>
+
+
+
+
         <!-- Footer -->
-        <footer class="fixed-bottom align-middle ">
+        <footer class="align-middle">
 
 
                 <div class="row" id="cenFoo">
                         <div class="col-sm-6 col-md-2 ">
-                                <a href="#" class="tap-target" rel="noopener" target="_blank"></i>Tasha</a><br>
+                                <a href="https://github.com/TashaTJ" class="tap-target" rel="noopener" target="_blank"></i>Tasha</a><br>
                         </div>
                         <div class="col-sm-6 col-md-2 ">
-                                <a href="#" class="tap-target" rel="noopener" target="_blank">Ivan</a><br>
+                                <a href="https://github.com/Sonicbasedrop" class="tap-target" rel="noopener" target="_blank">Ivan</a><br>
                         </div>
                         <div class="col-sm-6 col-md-2 ">
-                                <a href="#" class="tap-target" rel="noopener" target="_blank">Wisam</a><br>
+                                <a href="https://github.com/WisamTa" class="tap-target" rel="noopener" target="_blank">Wisam</a><br>
                         </div>
                         <div class="col-sm-6 col-md-2 ">
-                                <a href="#" class="tap-target" rel="noopener" target="_blank">Martin</a><br>
+                                <a href="https://github.com/martin-mcinerney" class="tap-target" rel="noopener" target="_blank">Martin</a><br>
                         </div>
                         <div class="col-sm-6 col-md-2 ">
-                                <a href="#" class="tap-target" rel="noopener" target="_blank">Eric</a>
+                                <a href="https://github.com/EricGaona" class="tap-target" rel="noopener" target="_blank">Eric</a>
                         </div>
                 </div>
                 <div class="row">
