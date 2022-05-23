@@ -1,0 +1,51 @@
+[33mcommit fcceecb0005d4af5c6274cda4daab1c114a53a4b[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: b7dd3bd d17c324
+Author: Martin McInerney <98256205+martin-mcinerney@users.noreply.github.com>
+Date:   Sun May 22 21:46:24 2022 +0100
+
+    Merge branch 'Sonicbasedrop:main' into main
+
+[33mcommit d17c324b9bebf29f9c3f4d078910cf9d2cdc8341[m
+Merge: 41800eb eb0081a
+Author: ericgaona <ericgaona0413@gmail.com>
+Date:   Sun May 22 21:45:59 2022 +0100
+
+    Merge pull request #66 from Sonicbasedrop/ivan
+    
+    Ivan
+
+[33mcommit b7dd3bdf82546dbb91b6e2b75aa89c0f06c0f33e[m
+Merge: 97f2956 41800eb
+Author: Martin McInerney <98256205+martin-mcinerney@users.noreply.github.com>
+Date:   Sun May 22 21:29:35 2022 +0100
+
+    Merge branch 'Sonicbasedrop:main' into main
+
+[33mcommit 41800eb85840a7258bb81fd74cf2a090903e7cd9[m
+Author: Ivan M Ulysses <ivan.ulysses@hotmail.com>
+Date:   Sun May 22 21:44:47 2022 +0200
+
+    Ivan (#62)
+    
+    * added styling to 404 error page
+    
+    * Added error message to 404 error page
+    
+    * upladed site favicon
+    
+    * Added favicon link tags to head on index.html
+
+[33mcommit 250a25243fc1cf2798d320bb880017419da85ff5[m
+Merge: b214d91 ac8b3ee
+Author: Ivan M Ulysses <ivan.ulysses@hotmail.com>
+Date:   Sun May 22 21:37:21 2022 +0200
+
+    Merge pull request #65 from TashaTJ/tasha
+    
+    trying to solve conflicts here
+
+[33mcommit ac8b3ee566943d19a646bf3e63c1d9e1469e659f[m
+Author: Tasha Johnson <tashataylorjohnson@me.com>
+Date:   Sun May 22 19:28:57 2022 +0000
+
+    Connect about, wizard and index to sign up page
