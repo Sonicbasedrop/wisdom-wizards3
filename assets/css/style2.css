@@ -42,7 +42,6 @@ main {
     height: 90vh;
     width: 90vw;
     margin: 0px auto 0;
-
 }
 
 /* #hero-wizard {
@@ -380,6 +379,8 @@ footer small {
     margin-bottom: 15px;
 }
 
+
+
   /* 404 error page */
 /* 404 error page */
 
@@ -430,6 +431,10 @@ footer small {
 #err-home {
     text-decoration: none;
     color: green;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 /* sign up page */
