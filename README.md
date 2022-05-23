@@ -6,11 +6,9 @@
 1. [Introduction](#Introduction)
 1. [User Stories](#User-Stories)
 1. [Design](#Design)
-1. [Features](#Features)
-1. [TESTING.md](project_files/TESTING.md)
-1. [Bugs and Issues TESTING.md](project_files/TESTING.md#Bugs-and-Issues)
-1. [W3C-Validation TESTING.md](project_files/TESTING.md#Validation)   
+1. [Features](#Features)  
 1. [Technologies and Frameworks](#Technologies-and-Frameworks)
+1. [Manual Testing](#Manual-Testing)
 1. [Deployment](#Deployment)
 1. [Credits](#Credits)
 
@@ -147,6 +145,8 @@ All the images was supplied from adobe stock photos
     - Footer was designed to be responsive across all devices.
     - Footer Contributors GitHub links and copyright information.
 
+## Manual Testings
+
 ## **Technologies and Frameworks**
 
 ### **Languages Used**
@@ -162,6 +162,8 @@ All the images was supplied from adobe stock photos
 - [GitHub:](https://github.com/) used to store the projects code.
 - [gitpod.io](https://gitpod.io/) gitpod Was used for codding.
 - [Balsamiq:](https://balsamiq.com/) was used to create the wireframes.
+- [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)<br>
+	 Google chromes built in developer tools are used to inspect page elements and help debug issues with the site layout and test different CSS styles.
 
 ## **Deployment**
 ### **Deploying on GitHub Pages**
@@ -205,9 +207,12 @@ git clone https://github.com/USERNAME/REPOSITORY
 
 ## Credits 
 
+ Ackowledgements:<br>
 [Code Institute](https://hackathon.codeinstitute.net/)<br>
 [Faraday Academy](https://www.youtube.com/c/FaradayAcademy/featured)<br>
 [freeCodeCamp](https://www.freecodecamp.org/news/how-to-become-a-git-expert-e7c38bf54826/)<br>
+
+Code:
 
 
 ### **Code**
