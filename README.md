@@ -36,7 +36,7 @@ Tasha Johnson on [GitHub](https://github.com/TashaTJ)\
 Ivan M Ulysses on [GitHub](https://github.com/Sonicbasedrop)\
 Wisam Altaqaly on [GitHub](https://github.com/WisamTa)\
 Martin McInerney on [GitHub](https://github.com/martin-mcinerney)\
-Eric Gaona on [GitHub](https://github.com/EricGaona)\
+Eric Gaona on [GitHub](https://github.com/EricGaona)
 
 
 ## User Stories
