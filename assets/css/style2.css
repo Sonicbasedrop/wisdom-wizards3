@@ -54,8 +54,8 @@ main {
 img {
 
     display: block;
-    height: 70%;
-    width: 70%;
+    height: auto;
+    width: 100%;
 
     margin: 0 auto;
     padding-top: 80px;
@@ -457,8 +457,8 @@ footer small {
 
 #ethel-headshot {
     align-items: center;
-    height: 50%;
-    width: 50%;
+    height: auto;
+    width: auto;
 }
 
 #wizettes-heading {
@@ -475,8 +475,8 @@ footer small {
 
 #wizettes-headshot {
     align-items: center;
-    height: 80%;
-    width: 80%;
+    height: auto;
+    width: auto;
     margin-bottom: 30px;
     margin-top: 30px;
 }
