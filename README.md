@@ -1,6 +1,6 @@
 # Wisdom Wizards
-![img](project_files/readme_images/project_banner.png)
-## *The live site link can be found [Here]()*
+![img](project_files/readme_images/wiz_banner.png)
+## *The live site link can be found [Here](https://sonicbasedrop.github.io/wisdom-wizards3/)*
 ### Table of contents
 
 1. [Introduction](#Introduction)
