@@ -46,8 +46,10 @@ main {
 img {
     display: block;
 
+
     height: auto;
     width: 100%;
+
 
 
     margin: 0 auto;
@@ -354,6 +356,7 @@ footer small {
 
 #ethel-headshot {
 
+
     align-items: center;
 
     height: auto;
@@ -373,6 +376,16 @@ footer small {
    
     margin-bottom: 30px;
     margin-top: 30px;
+
+
+}
+
+#rex-headshot {
+    height: auto;
+    width: 30%;
+    margin-bottom: 15px;
+}
+
 
 .rex-text {
     text-align: center;
