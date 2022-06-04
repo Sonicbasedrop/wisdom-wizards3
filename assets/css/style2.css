@@ -45,8 +45,13 @@ main {
 } */
 img {
     display: block;
-    height: 70%;
-    width: 70%;
+
+
+    height: auto;
+    width: 100%;
+
+
+
     margin: 0 auto;
     padding-top: 80px;
 }
@@ -350,8 +355,13 @@ footer small {
 }
 
 #ethel-headshot {
+
+
+    align-items: center;
+
     height: auto;
     width: 30%;
+
 }
 
 #rex-headshot {
@@ -360,12 +370,29 @@ footer small {
     margin-bottom: 15px;
 }
 
+
+#wizettes-headshot {
+    align-items: center;
+   
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+
+}
+
+#rex-headshot {
+    height: auto;
+    width: 30%;
+    margin-bottom: 15px;
+}
+
+
 .rex-text {
     text-align: center;
     width: 80%;
     margin: 0% auto;
     color: black;
-    
+
 }
 
 .carousel {
