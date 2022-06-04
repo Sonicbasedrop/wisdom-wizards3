@@ -50,8 +50,6 @@ img {
     height: auto;
     width: 100%;
 
-
-
     margin: 0 auto;
     padding-top: 80px;
 }
@@ -378,6 +376,7 @@ footer small {
     margin-top: 30px;
 
 
+
 }
 
 #rex-headshot {
@@ -394,6 +393,7 @@ footer small {
     color: black;
 
 }
+
 
 .carousel {
     position: relative;
